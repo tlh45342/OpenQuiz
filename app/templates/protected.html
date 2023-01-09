@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Protected</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/mystyle.css">	
+  </head>
+  <body>
+    Welcome to flask-example1:<br><br>
+
+    This is a protected page.
+
+    <div>user is authenticated: {{ is_authenticated }}</div><br>
+
+    <form action="/logout" method="post">  
+      <INPUT type="submit" value="logout">
+    </form>
+ 
+  </body>
+</html>
