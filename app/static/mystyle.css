@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+}
+
+.login{
+  border-radius: 25px;
+  background: #dcdcdc;
+  padding: 20px;
+  margin: 20px;
+  width: 265px;
+  height: 150px;
+}
+
+input[type=text]{
+	width: 250px;
+	height: 30px;
+    padding: 12px 20px;
+	margin: 8px 0;
+	background: white;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #0;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+input[type=password]{
+	width: 250px;
+	height: 30px;
+    padding: 12px 20px;
+	margin: 8px 0;
+	background: white;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #0;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+input[type=submit] {
+	width: 100x;
+	height: 30px;
+    padding: 12px 20px;
+	margin: 8px 0;
+	background: #ff;
+	border-radius: 5px;
+	border: 1px solid #0;
+	cursor: pointer;
+	color: #0;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
